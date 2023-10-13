@@ -1347,7 +1347,11 @@
         "WRITE"
       ]
     },
-    "BucketName":{"type":"string"},
+    "BucketName":{
+      "type":"string",
+      "min":3,
+      "max":63
+    },
     "BucketVersioningStatus":{
       "type":"string",
       "enum":[
